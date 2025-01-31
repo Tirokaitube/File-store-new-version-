@@ -2,7 +2,6 @@
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
-
 import re
 import os
 from os import environ
@@ -16,7 +15,7 @@ def is_enabled(value, default):
         return False
     else:
         return default
-      
+
 # Bot Information
 API_ID = int(environ.get("API_ID", "708575"))
 API_HASH = environ.get("API_HASH", "431d3ae02dd51dd7c26ab9f9a08dae84")
@@ -49,7 +48,8 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Second
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002206233283"))
 
 # File Caption Information
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", CUSTOM_FILE_CAPTION)
+DEFAULT_FILE_CAPTION = "Default file caption"  # Define a default value or get it from environment
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", DEFAULT_FILE_CAPTION)
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 
 # Enable - True or Disable - False
@@ -82,8 +82,6 @@ else:
     ON_HEROKU = False
 URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 
-
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
-    
