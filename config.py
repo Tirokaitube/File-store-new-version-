@@ -36,7 +36,7 @@ CDB_NAME = environ.get("CDB_NAME", "cloneAnime_donghua")
 
 # Database Information
 DB_URI = environ.get("DB_URI", "mongodb+srv://pibamojydyj3:TeEnQfFLm3xSLrAn@cluster0.u7l9m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = environ.get("DB_NAME", "Anime_donghua")
+DB_NAME = environ.get("DB_NAME", "ONGOINGAnimeFile")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', False)) # Set True or False
