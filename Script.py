@@ -5,11 +5,7 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ {},【ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ +└ᴄʟᴏɴ�
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}</b>"""
-
-    # Don't Remove Credit Tg - @VJ_Botz
-    # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-    # Ask Doubt on telegram @KingVJ01
+    CAPTION = """<b>Filename: {file_name}</b>"""
 
     SHORTENER_API_MESSAGE = """<b>Tᴏ ᴀᴅᴅ ᴏʀ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ Sʜᴏʀᴛɴᴇʀ Wᴇʙsɪᴛᴇ API, /api (ᴀᴘɪ)
 
@@ -21,17 +17,9 @@ class script(object):
 
     If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
-    # Don't Remove Credit Tg - @VJ_Botz
-    # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-    # Ask Doubt on telegram @KingVJ01
-
     CLONE_START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ {},【ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ +├ᴄ�
 
     ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ᴛʜᴇɴ ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ ғʀᴏᴍ ᴍʏ <a href=https://t.me/Ayu_bots>ᴘᴀʀᴇɴᴛ</a></
-
-    # Don't Remove Credit Tg - @VJ_Botz
-    # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-    # Ask Doubt on telegram @KingVJ01
 
     ABOUT_TXT = """<b>ʜɪ ɪ ᴀᴍ ᴘᴇʀᴍᴀɴᴇɴᴛ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴡɪᴛʜ ᴄʟᴏɴᴇ ғᴇᴀᴛᴜʀᴇ + ᴄᴜsᴛᴏᴍ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ɪᴛ ᴍ�
 
@@ -43,7 +31,7 @@ class script(object):
 
     🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Ayu_bots>Ayu_bots</a>
 
-    👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Ayu_bots>Ayu 𝐒𝐮𝐩𝐩𝐨𝐫𝐭</a>
+    👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/Ayu_bots>Ayu 𝐒𝐮𝐩𝐩𝐨𝐫ᴛ</a>
 
     📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Ayu_bots>Ayu 𝐔𝐩𝐝𝐚ᴛᴇ</a></b>"""
 
@@ -57,10 +45,6 @@ class script(object):
 
     🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=tg://user?id={}>ᴅᴇᴠᴇʟᴏᴘᴇʀ</a></b>"""
 
-    # Don't Remove Credit Tg - @VJ_Botz
-    # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-    # Ask Doubt on telegram @KingVJ01
-
     CLONE_TXT = """<b>ʜᴇʟʟᴏ {} 👋
 
     First Send /clone command then follow below steps.
@@ -72,10 +56,6 @@ class script(object):
     5) ꜰᴏʀᴡᴀʀᴅ ᴛʜᴀᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴍᴇ.
 
     ᴛʜᴇɴ ɪ ᴀᴍ ᴛʀʏ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ᴄᴏᴘʏ ʙᴏᴛ ᴏғ ᴍᴇ ғᴏʀ ʏᴏᴜ ᴏɴʟʏ 😌</b>"""
-
-    # Don't Remove Credit Tg - @VJ_Botz
-    # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-    # Ask Doubt on telegram @KingVJ01
 
     HELP_TXT = """<b>💢 Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ ☺️
 
@@ -96,10 +76,6 @@ class script(object):
 
     🔻 /broadcast - ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ (ʙᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</b>"""
 
-    # Don't Remove Credit Tg - @VJ_Botz
-    # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-    # Ask Doubt on telegram @KingVJ01
-
     CHELP_TXT = """<b>💢 Hᴏᴡ Tᴏ Usᴇ Tʜɪs Bᴏᴛ ☺️
 
     🔻 /link - ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴠɪᴅᴇᴏ ᴏʀ ғɪʟᴇ ᴛᴏ ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ
@@ -111,10 +87,6 @@ class script(object):
     ᴇx - /api ʙᴀᴏᴡɢᴡᴋʟᴀᴀʙᴀᴋʟ
 
     🔻 /broadcast - ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ (ʙᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</b>"""
-
-    # Don't Remove Credit Tg - @VJ_Botz
-    # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-    # Ask Doubt on telegram @KingVJ01
 
     LOG_TEXT = """<b>#NewUser
 
