@@ -45,7 +45,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002294411214)
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002294411214")
 
 # File Caption Information
 DEFAULT_FILE_CAPTION = "Default file caption"  # Define a default value or get it from environment
