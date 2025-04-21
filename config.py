@@ -17,13 +17,13 @@ def is_enabled(value, default):
         return default
 
 # Bot Information
-API_ID = int(environ.get("API_ID", "708575"))
-API_HASH = environ.get("API_HASH", "431d3ae02dd51dd7c26ab9f9a08dae84")
+API_ID = int(environ.get("API_ID", "27624625"))
+API_HASH = environ.get("API_HASH", "5a5c96944e5c1efd57690915cfd18971")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://envs.sh/OQh.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1685470205 5212197608').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "ONGOING_Anime_File_bot") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5953621837 7823475125').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "V2_File_store_Bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -34,8 +34,8 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://pibamojydyj3:TeEnQfFLm
 CDB_NAME = environ.get("CDB_NAME", "cloneAnime_donghua")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://pibamojydyj3:TeEnQfFLm3xSLrAn@cluster0.u7l9m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = environ.get("DB_NAME", "ONGOINGAnimeFile")
+DB_URI = environ.get("DB_URI", "mongodb+srv://Deep467:Deep467@cluster0.684vpzb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "Deep467")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', False)) # Set True or False
@@ -45,7 +45,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002206233283"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002294411214)
 
 # File Caption Information
 DEFAULT_FILE_CAPTION = "Default file caption"  # Define a default value or get it from environment
