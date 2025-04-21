@@ -34,8 +34,8 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://pibamojydyj3:TeEnQfFLm
 CDB_NAME = environ.get("CDB_NAME", "cloneAnime_donghua")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://Deep467:Deep467@cluster0.684vpzb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = environ.get("DB_NAME", "Deep467")
+DB_URI = environ.get("DB_URI", "mongodb+srv://tirokaitube:ymDe3VLWXQ05JazI@cluster0.tktl52k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "tirokaitube")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', False)) # Set True or False
